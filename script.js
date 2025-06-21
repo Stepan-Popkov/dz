@@ -71,6 +71,10 @@ addListItemButton.addEventListener('click', () => {
         alert('Пожалуйста, введите текст для нового элемента списка.');
     }
 });
+ const square = document.getElementById('square');
+    square.addEventListener('click', () => {
+      square.classList.toggle('moved'); // переключение класса при клике
+    });
 
 // Дополнительный пример: изменение стилей напрямую (можно показать, но лучше использовать классы)
 // Например, при наведении на заголовок секции
