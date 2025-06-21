@@ -29,6 +29,17 @@ main {
     padding-bottom: 20px;
     border-bottom: 1px dashed #eee;
 }
+ #square {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      position: relative;
+      transition: all 1s ease; /* плавная анимация */
+    }
+.moved {
+      transform: translateX(300px); /* смещение вправо */
+      background-color: purple; /* изменение цвета */
+    }
 
 .example-section:last-child {
     border-bottom: none;
